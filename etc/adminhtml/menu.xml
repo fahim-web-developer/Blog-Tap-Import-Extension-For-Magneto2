@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+	<menu> 
+        <add id="Fahim_BlogTagImport::tagimport" title="Import Tag" module="Fahim_BlogTagImport" sortOrder="45" parent="Mageplaza_Blog::blog" action="importtag/import/index" resource="Fahim_BlogTagImport::tagimport"/>
+	</menu>
+</config>
